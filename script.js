@@ -130,12 +130,12 @@
 
 // // CRUD - Delete
 
-// app.get('Delete-user', async(req,res) => {
-//     await userModel.findOneAndDelete({
-//         username:"a"
-//     })
-//     res.send('user deleted')
-// })
+app.get('Delete-user', async(req,res) => {
+    await userModel.findOneAndDelete({
+        username:"a"
+    })
+    res.send('user deleted')
+})
 // // easiest
 
 
